@@ -148,7 +148,182 @@
             <div class="settings-details settings-details1">
                 <div class="tab-content settings-tab">
                     <div class="tab-pane settings-tab-pane active" id="nav1" role="tabpanel">
+                       <div class="dashboard-overview">
+                         <h3>Overview</h3>
+                         <div class="overview-boxes">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="overview-box obox1">
+                                        <div class="overview-img">
+                                            <img src="assets/images/dashboard/1.png" alt="">
+                                            <h4>15</h4>
+                                        </div>
+                                        <h6>Total Events</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="overview-box obox2">
+                                        <div class="overview-img">
+                                            <img src="assets/images/dashboard/2.png" alt="">
+                                            <h4>55</h4>
+                                        </div>
+                                        <h6>Total Team Members</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="overview-box obox3">
+                                        <div class="overview-img">
+                                            <img src="assets/images/dashboard/3.png" alt="">
+                                            <h4>10</h4>
+                                        </div>
+                                        <h6>New Appointments</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="overview-box obox4">
+                                        <div class="overview-img">
+                                            <img src="assets/images/dashboard/4.png" alt="">
+                                            <h4>80</h4>
+                                        </div>
+                                        <h6>Approved Appointments</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="overview-box obox5">
+                                        <div class="overview-img">
+                                            <img src="assets/images/dashboard/5.png" alt="">
+                                            <h4>50</h4>
+                                        </div>
+                                        <h6>Pending Appointments</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="overview-box obox6">
+                                        <div class="overview-img">
+                                            <img src="assets/images/dashboard/6.png" alt="">
+                                            <h4>2</h4>
+                                        </div>
+                                        <h6>Cancelled Appointments</h6>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+
+                         <div class="row dashboard-cards">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>Event List</h3>
+                                        <a href="event.php">View All</a>
+                                    </div>
+                                    <div class="card-body">
                        
+                                        <div class="evt-list">
+                
+                                                <div class="ex-evt-box">
+                                                    <div class="evt-date">
+                                                        <h4>16 <span>May</span></h4>
+                                                    </div>
+                                                    <div class="evt-desc">
+                                                        <h5>Business workshops</h5>
+                                                        <h6>10:30 - 16:00</h6>
+                                                    </div>
+                                                    <div class="evt-arrow">
+                                                        <a href="event.php"><i class="bx bx-chevron-right"></i></a>
+                                                    </div>
+                                                </div>
+                                        
+                                         
+                                                <div class="ex-evt-box">
+                                                    <div class="evt-date">
+                                                        <h4>05 <span>Feb</span></h4>
+                                                    </div>
+                                                    <div class="evt-desc">
+                                                        <h5>Business workshops</h5>
+                                                        <h6>10:30 - 16:00</h6>
+                                                    </div>
+                                                    <div class="evt-arrow">
+                                                        <a href="event.php"><i class="bx bx-chevron-right"></i></a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ex-evt-box">
+                                                    <div class="evt-date">
+                                                        <h4>16 <span>May</span></h4>
+                                                    </div>
+                                                    <div class="evt-desc">
+                                                        <h5>Business workshops</h5>
+                                                        <h6>10:30 - 16:00</h6>
+                                                    </div>
+                                                    <div class="evt-arrow">
+                                                        <a href="event.php"><i class="bx bx-chevron-right"></i></a>
+                                                    </div>
+                                                </div>
+                                        
+                                         
+                                                <div class="ex-evt-box">
+                                                    <div class="evt-date">
+                                                        <h4>05 <span>Feb</span></h4>
+                                                    </div>
+                                                    <div class="evt-desc">
+                                                        <h5>Business workshops</h5>
+                                                        <h6>10:30 - 16:00</h6>
+                                                    </div>
+                                                    <div class="evt-arrow">
+                                                        <a href="event.php"><i class="bx bx-chevron-right"></i></a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="ex-evt-box">
+                                                    <div class="evt-date">
+                                                        <h4>16 <span>May</span></h4>
+                                                    </div>
+                                                    <div class="evt-desc">
+                                                        <h5>Business workshops</h5>
+                                                        <h6>10:30 - 16:00</h6>
+                                                    </div>
+                                                    <div class="evt-arrow">
+                                                        <a href="event.php"><i class="bx bx-chevron-right"></i></a>
+                                                    </div>
+                                                </div>
+                                        
+                                         
+                                                <div class="ex-evt-box">
+                                                    <div class="evt-date">
+                                                        <h4>05 <span>Feb</span></h4>
+                                                    </div>
+                                                    <div class="evt-desc">
+                                                        <h5>Business workshops</h5>
+                                                        <h6>10:30 - 16:00</h6>
+                                                    </div>
+                                                    <div class="evt-arrow">
+                                                        <a href="event.php"><i class="bx bx-chevron-right"></i></a>
+                                                    </div>
+                                                </div>
+                                         
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h3>Appointment Overview</h3>
+                                     
+                                    </div>
+                                    <div class="card-body">
+                       
+                                       <div class="evt-graph">
+                                        <div id="pie-chart" data-colors='["--bs-primary", "--bs-success", "--bs-warning", "--bs-danger"]' class="e-charts"></div>
+
+                                       </div>
+                                    </div>
+                                 </div>
+                            </div>
+                         </div>
+
+                       
+                       </div>
                     </div>
                     <div class="tab-pane settings-tab-pane" id="nav2" role="tabpanel">
                         <div class="speaker-header space-user-head user-pad">
@@ -571,7 +746,7 @@
                                                
                                                 <td class="text-end">
                                                     <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#">
-                                                        <i class="bx bxs-pencil cursor-pntr"></i>
+                                                    <i class="bx bxs-pencil cursor-pntr"></i>
                                                     </button>
                                                     <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
                                                         <i class="bx bx-trash cursor-pntr"></i>
@@ -1650,12 +1825,22 @@
                                                 </td>
                                                
                                                 <td class="text-end">
-                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-user">
-                                                        <i class="bx bxs-pencil cursor-pntr"></i>
-                                                    </button>
-                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                        <i class="bx bx-trash cursor-pntr"></i>
-                                                    </button>
+                                                    <div class="approve-reject-btn">
+                                                        <button class="approve-btn">
+                                                            <svg width="12" height="12" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M22 11.58V12.5C21.9988 14.6564 21.3005 16.7547 20.0093 18.4818C18.7182 20.209 16.9033 21.4725 14.8354 22.0839C12.7674 22.6953 10.5573 22.6219 8.53447 21.8746C6.51168 21.1273 4.78465 19.7461 3.61095 17.9371C2.43726 16.128 1.87979 13.9881 2.02167 11.8363C2.16356 9.68457 2.9972 7.63633 4.39827 5.99707C5.79935 4.35782 7.69278 3.21538 9.79618 2.74015C11.8996 2.26491 14.1003 2.48234 16.07 3.36" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M22 4.5L12 14.51L9 11.51" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        </svg>Approve
+                                                            </button>
+                                                            <button class="reject-btn">
+                                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M15 9L9 15" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M9 9L15 15" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        </svg>Reject
+                                                            </button>
+                                                    </div>
+                                                   
                                                     <span class="resize"></span>
                                                 </td>
     
@@ -1678,12 +1863,21 @@
                                                     <h6>Oct. 29, 2022</h6><span class="resize"></span>
                                                 </td>
                                                 <td class="text-end">
-                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-user">
-                                                    <i class="bx bxs-pencil cursor-pntr"></i>
-                                                    </button>
-                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                        <i class="bx bx-trash cursor-pntr"></i>
-                                                    </button>
+                                                    <div class="approve-reject-btn">
+                                                        <button class="approve-btn">
+                                                            <svg width="12" height="12" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M22 11.58V12.5C21.9988 14.6564 21.3005 16.7547 20.0093 18.4818C18.7182 20.209 16.9033 21.4725 14.8354 22.0839C12.7674 22.6953 10.5573 22.6219 8.53447 21.8746C6.51168 21.1273 4.78465 19.7461 3.61095 17.9371C2.43726 16.128 1.87979 13.9881 2.02167 11.8363C2.16356 9.68457 2.9972 7.63633 4.39827 5.99707C5.79935 4.35782 7.69278 3.21538 9.79618 2.74015C11.8996 2.26491 14.1003 2.48234 16.07 3.36" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M22 4.5L12 14.51L9 11.51" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        </svg>Approve
+                                                            </button>
+                                                            <button class="reject-btn">
+                                                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M15 9L9 15" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        <path d="M9 9L15 15" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                        </svg>Reject
+                                                            </button>
+                                                    </div>
                                                     <span class="resize"></span>
                                                 </td>
     
@@ -2671,29 +2865,6 @@
  
 
 
-    <div class="modal fade" id="add-category" aria-hidden="true" aria-labelledby="..." tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Expert Category</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-grp mb-0">
-                        <label class="form-label">Category Name<span>*</span></label>
-                        <input class="form-control" type="text" placeholder="">
-                    </div>
-                   
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Cancel</button>
-                    <button class="btn btn-primary  br-50 btn-md" data-bs-dismiss="modal">Save</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
     <!-- JAVASCRIPT -->
     <script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
     <script src="assets/libs/jquery/jquery.min.js"></script>
@@ -2717,6 +2888,8 @@
     <script src="assets/js/pages/bootstrap-taginput.js"></script>
     <script src="assets/js/pages/mdb.min.js"></script>
     <script src="assets/js/summernote-bs4.js"></script>
+    <script src="assets/libs/echarts/echarts.min.js"></script>
+    <script src="assets/js/pages/echarts.init.js"></script>
     <script src="assets/js/app.js"></script>
 
 
@@ -2773,148 +2946,7 @@
             startCalendar: $('.datestart')
         });
     </script>
-    <script>
-        function importDifferentFile(imgval) {
-    
-            const uploadArea = document.querySelector('#uploadArea' + imgval)
-            const dropZoon = document.querySelector('#dropZoon' + imgval);
-            const loadingText = document.querySelector('#loadingText' + imgval);
-            const fileInput = document.querySelector('#fileInput' + imgval);
-            const previewImage = document.querySelector('#previewImage' + imgval);
-            const fileDetails = document.querySelector('#fileDetails' + imgval);
-            const uploadedFile = document.querySelector('#uploadedFile' + imgval);
-            const uploadedFileInfo = document.querySelector('#uploadedFileInfo' + imgval);
-            const uploadedFileName = document.querySelector('.uploaded-file__name');
-            const uploadedFileIconText = document.querySelector('.uploaded-file__icon-text');
-            const uploadedFileCounter = document.querySelector('.uploaded-file__counter');
-            const imagesTypes = [
-                "jpeg",
-                "png",
-                "svg",
-                "gif"
-            ];
-    
-            dropZoon.addEventListener('dragover', function (event) {
-                event.preventDefault();
-                dropZoon.classList.add('drop-zoon--over');
-            });
-    
-            dropZoon.addEventListener('dragleave', function (event) {
-                dropZoon.classList.remove('drop-zoon--over');
-            });
-    
-            dropZoon.addEventListener('drop', function (event) {
-                event.preventDefault();
-                dropZoon.classList.remove('drop-zoon--over');
-                const file = event.dataTransfer.files[0];
-                uploadFile(file);
-            });
-    
-            fileInput.click()
-            fileInput.addEventListener('change', function (event) {
-                const file = event.target.files[0];
-                uploadFile(file);
-            });
-    
-            function uploadFile(file) {
-                const fileReader = new FileReader();
-                const fileType = file.type;
-                const fileSize = file.size;
-    
-                if (fileValidate(fileType, fileSize)) {
-                    dropZoon.classList.add('drop-zoon--Uploaded');
-                    loadingText.style.display = "block";
-                    previewImage.style.display = 'none';
-                    uploadedFile.classList.remove('uploaded-file--open');
-                    uploadedFileInfo.classList.remove('uploaded-file__info--active');
-    
-                    fileReader.addEventListener('load', function () {
-                        setTimeout(function () {
-                            uploadArea.classList.add('upload-area--open');
-                            loadingText.style.display = "none";
-                            previewImage.style.display = 'block';
-                            fileDetails.classList.add('file-details--open');
-                            uploadedFile.classList.add('uploaded-file--open');
-                            uploadedFileInfo.classList.add('uploaded-file__info--active');
-                        }, 500);
-    
-                        previewImage.setAttribute('src', fileReader.result);
-                        uploadedFileName.innerHTML = file.name;
-    
-                        progressMove();
-                    });
-    
-                    fileReader.readAsDataURL(file);
-                } else {
-    
-                    this;
-    
-                };
-            };
-    
-    
-            function progressMove() {
-                let counter = 0;
-                setTimeout(() => {
-                    let counterIncrease = setInterval(() => {
-                        if (counter === 100) {
-                            clearInterval(counterIncrease);
-                        } else {
-                            counter = counter + 10;
-                            uploadedFileCounter.innerHTML = `${counter}%`
-                        }
-                    }, 100);
-                }, 600);
-            };
-    
-            function fileValidate(fileType, fileSize) {
-                let isImage = imagesTypes.filter((type) => fileType.indexOf(`image/${type}`) !== -1);
-                if (isImage[0] === 'jpeg') {
-                    uploadedFileIconText.innerHTML = 'jpg';
-                } else {
-                    uploadedFileIconText.innerHTML = isImage[0];
-                };
-    
-                if (isImage.length !== 0) {
-                    if (fileSize <= 2000000) {
-                        return true;
-                    } else {
-                        return alert('Please Your File Should be 2 Megabytes or Less');
-                    };
-                } else {
-                    return alert('Please make sure to upload An Image File Type');
-                };
-            };
-        }
-    </script>
-        <script>
-            function makeimg(val1) {
-    
-                document.getElementById("imgfile" + val1).click();
-            }
-    
-            function previewFile(value) {
-    
-                const preview = document.getElementById('upld-image' + value);
-                const file = document.getElementById("imgfile" + value).files[0];
-                const reader = new FileReader();
-    
-                reader.addEventListener("load", function () {
-                    preview.src = reader.result;
-                }, false);
-    
-                if (file) {
-                    reader.readAsDataURL(file);
-                }
-            }
-            function deleteimg(value) {
-                const preview = document.getElementById('upld-image' + value);
-                preview.src = 'assets/images/users/default.png';
-    
-                const fileInput = document.getElementById("imgfile" + value);
-                fileInput.value = null;
-            }
-        </script>
+
             <script>
                 $(".mul-select").select2({
                     tags: true
@@ -2947,16 +2979,7 @@
             });
         </script>
 
-        <script>
-            $(".day-header").click(function () {
-               $(".day-header").parent().removeClass("card-border-left");
-               $(this).parent().addClass("card-border-left");
-           });
-           $(".timeslot-range").click(function () {
-               $(this).hide();
-           });
-         
-       </script>
+
 </body>
 
 </html>

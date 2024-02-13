@@ -23,7 +23,11 @@
     <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet">
     <link href="assets/css/form.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/libs/select/select2.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
 </head>
 
 <body class="ovrflw body-gray">
@@ -148,7 +152,7 @@
                     <div class="tab-pane settings-tab-pane active" id="nav1" role="tabpanel">
                        <div class="timeslot-div">
                         <div class="row d-flex align-items-center justify-content-center h-100">
-                            <div class="col-md-7">
+                            <div class="col-xl-7 col-large-9">
                                 <div class="dc-dashboardbox">
                                     <div class="dc-dashboardboxtitle">
                                         <h2>Timeslot</h2>
@@ -1282,866 +1286,866 @@
                        </div>
                     </div>
                     <div class="tab-pane settings-tab-pane" id="nav2" role="tabpanel">
-                    <div class="configuration-div">
-                        <ul class="nav nav-tabs nav-tabs-custom nav-justified" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-bs-toggle="tab" href="#conf-tab1"
-                                    role="tab">
-                                    <span>Expert Category</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#conf-tab2" role="tab">
-                                    <span>Team Member</span>
-                                </a>
-                            </li>
-                          
-                        </ul>
-                        <hr class="nav-bottom-hr" />
-                        <div class="tab-content">
-                            <div class="tab-pane active pb-0" id="conf-tab1" role="tabpanel">
-                                <div class="speaker-header">
-                                    <div class="speaker-btns">
-                                        <button type="button"
-                                            class="btn btn-primary waves-effect waves-light btn-sm  br-50 small"
-                                            data-bs-toggle="modal" data-bs-target="#add-category">
-                                            Add Expert Category
-                                        </button>
-                                        <div class="dropdown event-sett">
-                                            <div class="event-settings dropdown-toggle"
-                                                type="button" id="dropdownMenuButton"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="fas fa-cog"></i>
-                                            </div>
-                                            <div class="dropdown-menu"
-                                                aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
-                                                        class="fas fa-download me-2"></i>Import</a>
-                                                <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#"><i
-                                                        class="fas fa-upload me-2"></i>Export</a>
-                                            </div>
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="d-flex rightside-btns">
-                                        <div class="row-selected" style="display: none;">
-                                            <button type="button" class="btn btn-light selected-num me-1"
-                                                fdprocessedid="6xsncw">
-                                                <span>8</span>Selected<i class="bx bx-x"></i>
+                        <div class="configuration-div">
+                            <ul class="nav nav-tabs nav-tabs-custom nav-justified" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-bs-toggle="tab" href="#conf-tab1"
+                                        role="tab">
+                                        <span>Expert Category</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#conf-tab2" role="tab">
+                                        <span>Team Member</span>
+                                    </a>
+                                </li>
+                            
+                            </ul>
+                            <hr class="nav-bottom-hr" />
+                            <div class="tab-content">
+                                <div class="tab-pane active pb-0" id="conf-tab1" role="tabpanel">
+                                    <div class="speaker-header">
+                                        <div class="speaker-btns">
+                                            <button type="button"
+                                                class="btn btn-primary waves-effect waves-light btn-sm  br-50 small"
+                                                data-bs-toggle="modal" data-bs-target="#add-category">
+                                                Add Expert Category
                                             </button>
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-primary dropdown-toggle"
-                                                    data-bs-toggle="dropdown" aria-expanded="false"
-                                                    fdprocessedid="p8hcnm"><i class="fas fa-cog me-1"
-                                                        aria-hidden="true"></i>Actions</button>
-                                                <div class="dropdown-menu" style="">
-                                                    <a class="dropdown-item" href="#"><i class="fas fa-download me-2"
-                                                            aria-hidden="true"></i>Export</a>
+                                            <div class="dropdown event-sett">
+                                                <div class="event-settings dropdown-toggle"
+                                                    type="button" id="dropdownMenuButton"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fas fa-cog"></i>
+                                                </div>
+                                                <div class="dropdown-menu"
+                                                    aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
+                                                            class="fas fa-download me-2"></i>Import</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#"><i class="bx bxs-archive-in me-2"
-                                                            aria-hidden="true"></i>Archive</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
-                                                            aria-hidden="true"></i>Unarchive</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
-                                                            aria-hidden="true"></i>Delete</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-upload me-2"></i>Export</a>
                                                 </div>
                                             </div>
+                                        
                                         </div>
-                                        <div class="input-group search-inpt">
-                                            <div class="input-group-text bg-white"><i class="bx bx-search-alt"></i>
-                                            </div>
-                                            <input type="text" class="form-control border-start-0 ps-0"
-                                                id="inlineFormInputGroupUsername" placeholder="Search this list "
-                                                fdprocessedid="8pxgmh">
-                                            <div class="dropdown drpdwn-fg">
-                                                <button type="button" style=""
-                                                    class="input-group-text input-group-text-right btn-export btn-filter waves-effect waves-light btn-sm small dropdown-toggle h-100"
-                                                    id="dropdownMenuButton" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false" data-mdb-auto-close="outside"
-                                                    fdprocessedid="w62w8i">
-                                                    <i class="bx bx-filter-alt"></i>
-
+                                        <div class="d-flex rightside-btns">
+                                            <div class="row-selected" style="display: none;">
+                                                <button type="button" class="btn btn-light selected-num me-1"
+                                                    fdprocessedid="6xsncw">
+                                                    <span>8</span>Selected<i class="bx bx-x"></i>
                                                 </button>
-
-                                                <ul class="dropdown-menu dropdown-menu-lg filter-megadropdown animation fade-out"
-                                                    aria-labelledby="dropdownMenuButton"
-                                                    data-popper-placement="bottom-end" data-mdb-popper="null"
-                                                    style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-8px, 35px);">
-                                                    <div class="dropdown-row">
-                                                        <div class="col-md-4 border-right px-0">
-                                                            <h3><i class="bx bxs-filter-alt"></i>Filters</h3>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li><a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>My
-                                                                        Events</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Upcoming/Running</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Published</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Stage <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Live
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Drafts
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Past
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Cancelled
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            All
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Trash
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Start Date <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="reg-date w-100">
-                                                                                <label for="">Date</label>
-                                                                                <input type="date"
-                                                                                    class="form-control-sm">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Archived</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Add Custom Filter <i
-                                                                        class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="reg-date w-100">
-                                                                                <input type="text"
-                                                                                    class="form-control-sm"
-                                                                                    placeholder="Type here">
-
-                                                                            </div>
-
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary btn-sm waves-effect waves-light">Apply</button>
-
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-
-
-                                                        </div>
-                                                        <div class="col-md-4 border-right px-0">
-                                                            <h3><i class="bx bxs-layer"></i>Group By</h3>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li><a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Responsible</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Template</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Stage</span></a>
-                                                            </li>
-
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Start Date <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="reg-date w-100">
-                                                                                <label for="">Date</label>
-                                                                                <input type="date"
-                                                                                    class="form-control-sm">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Add Custom Group <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Company
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Country
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Created by
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Created on
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-4 px-0">
-                                                            <h3><i class="bx bxs-star fav"></i>Favorites</h3>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li><a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>My
-                                                                        Events</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Upcoming
-                                                                        Events</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Save current search <i
-                                                                        class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu" style="margin-top: 40px;left: auto;width: 100%;">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-
-                                                                            <div class="form-check">
-                                                                                <input class="form-check-input"
-                                                                                    type="checkbox" id="formCheck1">
-                                                                                <label class="form-check-label"
-                                                                                    for="formCheck1">
-                                                                                    Default filter
-                                                                                </label>
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="form-check">
-                                                                                <input class="form-check-input"
-                                                                                    type="checkbox" id="formCheck1">
-                                                                                <label class="form-check-label"
-                                                                                    for="formCheck1">
-                                                                                    Shared
-                                                                                </label>
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary btn-sm waves-effect waves-light">Save</button>
-                                                                        </a>
-                                                                    </li>
-
-
-                                                                </ul>
-                                                            </li>
-                                                        </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-primary dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                                        fdprocessedid="p8hcnm"><i class="fas fa-cog me-1"
+                                                            aria-hidden="true"></i>Actions</button>
+                                                    <div class="dropdown-menu" style="">
+                                                        <a class="dropdown-item" href="#"><i class="fas fa-download me-2"
+                                                                aria-hidden="true"></i>Export</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#"><i class="bx bxs-archive-in me-2"
+                                                                aria-hidden="true"></i>Archive</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
+                                                                aria-hidden="true"></i>Unarchive</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
+                                                                aria-hidden="true"></i>Delete</a>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group search-inpt">
+                                                <div class="input-group-text bg-white"><i class="bx bx-search-alt"></i>
+                                                </div>
+                                                <input type="text" class="form-control border-start-0 ps-0"
+                                                    id="inlineFormInputGroupUsername" placeholder="Search this list "
+                                                    fdprocessedid="8pxgmh">
+                                                <div class="dropdown drpdwn-fg">
+                                                    <button type="button" style=""
+                                                        class="input-group-text input-group-text-right btn-export btn-filter waves-effect waves-light btn-sm small dropdown-toggle h-100"
+                                                        id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                                                        aria-expanded="false" data-mdb-auto-close="outside"
+                                                        fdprocessedid="w62w8i">
+                                                        <i class="bx bx-filter-alt"></i>
 
+                                                    </button>
+
+                                                    <ul class="dropdown-menu dropdown-menu-lg filter-megadropdown animation fade-out"
+                                                        aria-labelledby="dropdownMenuButton"
+                                                        data-popper-placement="bottom-end" data-mdb-popper="null"
+                                                        style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-8px, 35px);">
+                                                        <div class="dropdown-row">
+                                                            <div class="col-md-4 border-right px-0">
+                                                                <h3><i class="bx bxs-filter-alt"></i>Filters</h3>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li><a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>My
+                                                                            Events</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Upcoming/Running</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Published</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Stage <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Live
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Drafts
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Past
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Cancelled
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                All
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Trash
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Start Date <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="reg-date w-100">
+                                                                                    <label for="">Date</label>
+                                                                                    <input type="date"
+                                                                                        class="form-control-sm">
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Archived</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Add Custom Filter <i
+                                                                            class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="reg-date w-100">
+                                                                                    <input type="text"
+                                                                                        class="form-control-sm"
+                                                                                        placeholder="Type here">
+
+                                                                                </div>
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary btn-sm waves-effect waves-light">Apply</button>
+
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+
+
+                                                            </div>
+                                                            <div class="col-md-4 border-right px-0">
+                                                                <h3><i class="bx bxs-layer"></i>Group By</h3>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li><a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Responsible</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Template</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Stage</span></a>
+                                                                </li>
+
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Start Date <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="reg-date w-100">
+                                                                                    <label for="">Date</label>
+                                                                                    <input type="date"
+                                                                                        class="form-control-sm">
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Add Custom Group <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Company
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Country
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Created by
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Created on
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+                                                            </div>
+                                                            <div class="col-md-4 px-0">
+                                                                <h3><i class="bx bxs-star fav"></i>Favorites</h3>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li><a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>My
+                                                                            Events</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Upcoming
+                                                                            Events</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Save current search <i
+                                                                            class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu" style="margin-top: 40px;left: auto;width: 100%;">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input"
+                                                                                        type="checkbox" id="formCheck1">
+                                                                                    <label class="form-check-label"
+                                                                                        for="formCheck1">
+                                                                                        Default filter
+                                                                                    </label>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input"
+                                                                                        type="checkbox" id="formCheck1">
+                                                                                    <label class="form-check-label"
+                                                                                        for="formCheck1">
+                                                                                        Shared
+                                                                                    </label>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary btn-sm waves-effect waves-light">Save</button>
+                                                                            </a>
+                                                                        </li>
+
+
+                                                                    </ul>
+                                                                </li>
+                                                            </div>
+                                                        </div>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="tbl-content">
+                                        <div class="tbl-overflow-hide1">
+                                            <table id="event-table"
+                                                        class="table table-resizable table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="36px" style="padding-right: 4px;"><input class="form-check-input" type="checkbox" name="Main_Checkbox" id="selectAll"><span class="resize"></span></th>
+                                                                <th>S/NO<span class="resize"></span></th>
+                                                                <th>Category<span class="resize"></span></th>                                                       
+                                                                <th><span class="resize"></span></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                                <td>1</td>
+                                                                <td>Career</td>
+                                                                <td class="text-end">
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-category">
+                                                                        <i class="bx bxs-pencil cursor-pntr"></i>
+                                                                    </button>
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
+                                                                        <i class="bx bx-trash cursor-pntr"></i>
+                                                                    </button>
+                                                                    <span class="resize"></span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
+                                                                <td>2</td>
+                                                                <td>Business</td>
+                                                                <td class="text-end">
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-category">
+                                                                        <i class="bx bxs-pencil cursor-pntr"></i>
+                                                                    </button>
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
+                                                                        <i class="bx bx-trash cursor-pntr"></i>
+                                                                    </button>
+                                                                    <span class="resize"></span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck3"><span class="resize"></span></td>
+                                                                <td>3</td>
+                                                                <td>Automotive</td>
+                                                                <td class="text-end">
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-category">
+                                                                        <i class="bx bxs-pencil cursor-pntr"></i>
+                                                                    </button>
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
+                                                                        <i class="bx bx-trash cursor-pntr"></i>
+                                                                    </button>
+                                                                    <span class="resize"></span>
+                                                                </td>
+                                                            </tr>
+                                                        
+                                                        </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="bootom-nav">
+                                            <div class="total-count">
+                                                <h6>Total Count : <span>10</span></h6>
+                                                <ul>
+                                                    <li><a href="#"><i class="bx bx-chevrons-left"></i></a>
+                                                    </li>
+                                                    <li><a href="#"><i class="bx bx-chevron-left"></i></a>
+                                                    </li>                                                      
+                                                    <li class="active"><a href="#"><span>1</span></a></li>
+                                                    <li><a href="#"><span>2</span></a></li>                                                  
+                                                    <li><a href="#"><i class="bx bx-chevron-right"></i></a>
+                                                    </li>
+                                                    <li><a href="#"><i class="bx bx-chevrons-right"></i></a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
-
-
-                                    </div>
+                                    </div> 
                                 </div>
-                                <div class="tbl-content">
-                                    <div class="tbl-overflow-hide1">
-                                        <table id="event-table"
-                                                    class="table table-resizable table-striped">
-                                                    <thead>
-                                                        <tr>
-                                                            <th width="36px" style="padding-right: 4px;"><input class="form-check-input" type="checkbox" name="Main_Checkbox" id="selectAll"><span class="resize"></span></th>
-                                                            <th>S/NO<span class="resize"></span></th>
-                                                            <th>Category<span class="resize"></span></th>                                                       
-                                                            <th><span class="resize"></span></th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
-                                                            <td>1</td>
-                                                            <td>Career</td>
-                                                            <td class="text-end">
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-category">
-                                                                    <i class="bx bxs-pencil cursor-pntr"></i>
-                                                                </button>
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                                    <i class="bx bx-trash cursor-pntr"></i>
-                                                                </button>
-                                                                <span class="resize"></span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
-                                                            <td>2</td>
-                                                            <td>Business</td>
-                                                            <td class="text-end">
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-category">
-                                                                    <i class="bx bxs-pencil cursor-pntr"></i>
-                                                                </button>
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                                    <i class="bx bx-trash cursor-pntr"></i>
-                                                                </button>
-                                                                <span class="resize"></span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck3"><span class="resize"></span></td>
-                                                            <td>3</td>
-                                                            <td>Automotive</td>
-                                                            <td class="text-end">
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-category">
-                                                                    <i class="bx bxs-pencil cursor-pntr"></i>
-                                                                </button>
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                                    <i class="bx bx-trash cursor-pntr"></i>
-                                                                </button>
-                                                                <span class="resize"></span>
-                                                            </td>
-                                                        </tr>
-                                                       
-                                                    </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="bootom-nav">
-                                        <div class="total-count">
-                                            <h6>Total Count : <span>10</span></h6>
-                                            <ul>
-                                                <li><a href="#"><i class="bx bx-chevrons-left"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="bx bx-chevron-left"></i></a>
-                                                </li>                                                      
-                                                <li class="active"><a href="#"><span>1</span></a></li>
-                                                <li><a href="#"><span>2</span></a></li>                                                  
-                                                <li><a href="#"><i class="bx bx-chevron-right"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="bx bx-chevrons-right"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                            <div class="tab-pane pb-0" id="conf-tab2" role="tabpanel">
-                                <div class="speaker-header">
-                                    <div class="speaker-btns">
-                                        <button type="button"
-                                            class="btn btn-primary waves-effect waves-light btn-sm  br-50 small"
-                                            data-bs-toggle="modal" data-bs-target="#new-member">
-                                            Add Team Member
-                                        </button>
-                                        <div class="dropdown event-sett">
-                                            <div class="event-settings dropdown-toggle"
-                                                type="button" id="dropdownMenuButton"
-                                                data-bs-toggle="dropdown" aria-expanded="false">
-                                                <i class="fas fa-cog"></i>
-                                            </div>
-                                            <div class="dropdown-menu"
-                                                aria-labelledby="dropdownMenuButton">
-                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
-                                                        class="fas fa-download me-2"></i>Import</a>
-                                                <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#"><i
-                                                        class="fas fa-upload me-2"></i>Export</a>
-                                            </div>
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="d-flex rightside-btns">
-                                        <div class="row-selected" style="display: none;">
-                                            <button type="button" class="btn btn-light selected-num me-1"
-                                                fdprocessedid="6xsncw">
-                                                <span>8</span>Selected<i class="bx bx-x"></i>
+                                <div class="tab-pane pb-0" id="conf-tab2" role="tabpanel">
+                                    <div class="speaker-header">
+                                        <div class="speaker-btns">
+                                            <button type="button"
+                                                class="btn btn-primary waves-effect waves-light btn-sm  br-50 small"
+                                                data-bs-toggle="modal" data-bs-target="#new-member">
+                                                Add Team Member
                                             </button>
-                                            <div class="btn-group">
-                                                <button type="button" class="btn btn-primary dropdown-toggle"
-                                                    data-bs-toggle="dropdown" aria-expanded="false"
-                                                    fdprocessedid="p8hcnm"><i class="fas fa-cog me-1"
-                                                        aria-hidden="true"></i>Actions</button>
-                                                <div class="dropdown-menu" style="">
-                                                    <a class="dropdown-item" href="#"><i class="fas fa-download me-2"
-                                                            aria-hidden="true"></i>Export</a>
+                                            <div class="dropdown event-sett">
+                                                <div class="event-settings dropdown-toggle"
+                                                    type="button" id="dropdownMenuButton"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="fas fa-cog"></i>
+                                                </div>
+                                                <div class="dropdown-menu"
+                                                    aria-labelledby="dropdownMenuButton">
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
+                                                            class="fas fa-download me-2"></i>Import</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#"><i class="bx bxs-archive-in me-2"
-                                                            aria-hidden="true"></i>Archive</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
-                                                            aria-hidden="true"></i>Unarchive</a>
-                                                    <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
-                                                            aria-hidden="true"></i>Delete</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-upload me-2"></i>Export</a>
                                                 </div>
                                             </div>
+                                        
                                         </div>
-                                        <div class="input-group search-inpt">
-                                            <div class="input-group-text bg-white"><i class="bx bx-search-alt"></i>
-                                            </div>
-                                            <input type="text" class="form-control border-start-0 ps-0"
-                                                id="inlineFormInputGroupUsername" placeholder="Search this list "
-                                                fdprocessedid="8pxgmh">
-                                            <div class="dropdown drpdwn-fg">
-                                                <button type="button" style=""
-                                                    class="input-group-text input-group-text-right btn-export btn-filter waves-effect waves-light btn-sm small dropdown-toggle h-100"
-                                                    id="dropdownMenuButton" data-mdb-toggle="dropdown"
-                                                    aria-expanded="false" data-mdb-auto-close="outside"
-                                                    fdprocessedid="w62w8i">
-                                                    <i class="bx bx-filter-alt"></i>
-
+                                        <div class="d-flex rightside-btns">
+                                            <div class="row-selected" style="display: none;">
+                                                <button type="button" class="btn btn-light selected-num me-1"
+                                                    fdprocessedid="6xsncw">
+                                                    <span>8</span>Selected<i class="bx bx-x"></i>
                                                 </button>
-
-                                                <ul class="dropdown-menu dropdown-menu-lg filter-megadropdown animation fade-out"
-                                                    aria-labelledby="dropdownMenuButton"
-                                                    data-popper-placement="bottom-end" data-mdb-popper="null"
-                                                    style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-8px, 35px);">
-                                                    <div class="dropdown-row">
-                                                        <div class="col-md-4 border-right px-0">
-                                                            <h3><i class="bx bxs-filter-alt"></i>Filters</h3>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li><a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>My
-                                                                        Events</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Upcoming/Running</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Published</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Stage <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Live
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Drafts
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Past
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Cancelled
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            All
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Trash
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Start Date <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="reg-date w-100">
-                                                                                <label for="">Date</label>
-                                                                                <input type="date"
-                                                                                    class="form-control-sm">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Archived</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Add Custom Filter <i
-                                                                        class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="reg-date w-100">
-                                                                                <input type="text"
-                                                                                    class="form-control-sm"
-                                                                                    placeholder="Type here">
-
-                                                                            </div>
-
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary btn-sm waves-effect waves-light">Apply</button>
-
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-
-
-                                                        </div>
-                                                        <div class="col-md-4 border-right px-0">
-                                                            <h3><i class="bx bxs-layer"></i>Group By</h3>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li><a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Responsible</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Template</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Stage</span></a>
-                                                            </li>
-
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Start Date <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="reg-date w-100">
-                                                                                <label for="">Date</label>
-                                                                                <input type="date"
-                                                                                    class="form-control-sm">
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Add Custom Group <i class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Company
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Country
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Created by
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            Created on
-                                                                        </a>
-                                                                    </li>
-
-                                                                </ul>
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-4 px-0">
-                                                            <h3><i class="bx bxs-star fav"></i>Favorites</h3>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li><a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>My
-                                                                        Events</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item" href="#"><span><i
-                                                                            class="fas fa-check me-2"
-                                                                            aria-hidden="true"></i>Upcoming
-                                                                        Events</span></a>
-                                                            </li>
-                                                            <div class="dropdown-divider"></div>
-                                                            <li>
-                                                                <a class="dropdown-item drpdwn-menu-btn" href="#">
-                                                                    Save current search <i
-                                                                        class="fas fa-angle-right arrow"
-                                                                        aria-hidden="true"></i>
-                                                                </a>
-                                                                <ul class="dropdown-menu dropdown-submenu" style="margin-top: 40px;left: auto;width: 100%;">
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-
-                                                                            <div class="form-check">
-                                                                                <input class="form-check-input"
-                                                                                    type="checkbox" id="formCheck1">
-                                                                                <label class="form-check-label"
-                                                                                    for="formCheck1">
-                                                                                    Default filter
-                                                                                </label>
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <div class="form-check">
-                                                                                <input class="form-check-input"
-                                                                                    type="checkbox" id="formCheck1">
-                                                                                <label class="form-check-label"
-                                                                                    for="formCheck1">
-                                                                                    Shared
-                                                                                </label>
-                                                                            </div>
-                                                                        </a>
-                                                                    </li>
-                                                                    <li>
-                                                                        <a class="dropdown-item" href="#">
-                                                                            <button type="button"
-                                                                                class="btn btn-primary btn-sm waves-effect waves-light">Save</button>
-                                                                        </a>
-                                                                    </li>
-
-
-                                                                </ul>
-                                                            </li>
-                                                        </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-primary dropdown-toggle"
+                                                        data-bs-toggle="dropdown" aria-expanded="false"
+                                                        fdprocessedid="p8hcnm"><i class="fas fa-cog me-1"
+                                                            aria-hidden="true"></i>Actions</button>
+                                                    <div class="dropdown-menu" style="">
+                                                        <a class="dropdown-item" href="#"><i class="fas fa-download me-2"
+                                                                aria-hidden="true"></i>Export</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#"><i class="bx bxs-archive-in me-2"
+                                                                aria-hidden="true"></i>Archive</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
+                                                                aria-hidden="true"></i>Unarchive</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
+                                                                aria-hidden="true"></i>Delete</a>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="input-group search-inpt">
+                                                <div class="input-group-text bg-white"><i class="bx bx-search-alt"></i>
+                                                </div>
+                                                <input type="text" class="form-control border-start-0 ps-0"
+                                                    id="inlineFormInputGroupUsername" placeholder="Search this list "
+                                                    fdprocessedid="8pxgmh">
+                                                <div class="dropdown drpdwn-fg">
+                                                    <button type="button" style=""
+                                                        class="input-group-text input-group-text-right btn-export btn-filter waves-effect waves-light btn-sm small dropdown-toggle h-100"
+                                                        id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                                                        aria-expanded="false" data-mdb-auto-close="outside"
+                                                        fdprocessedid="w62w8i">
+                                                        <i class="bx bx-filter-alt"></i>
 
+                                                    </button>
+
+                                                    <ul class="dropdown-menu dropdown-menu-lg filter-megadropdown animation fade-out"
+                                                        aria-labelledby="dropdownMenuButton"
+                                                        data-popper-placement="bottom-end" data-mdb-popper="null"
+                                                        style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-8px, 35px);">
+                                                        <div class="dropdown-row">
+                                                            <div class="col-md-4 border-right px-0">
+                                                                <h3><i class="bx bxs-filter-alt"></i>Filters</h3>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li><a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>My
+                                                                            Events</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Upcoming/Running</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Published</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Stage <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Live
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Drafts
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Past
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Cancelled
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                All
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Trash
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Start Date <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="reg-date w-100">
+                                                                                    <label for="">Date</label>
+                                                                                    <input type="date"
+                                                                                        class="form-control-sm">
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Archived</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Add Custom Filter <i
+                                                                            class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="reg-date w-100">
+                                                                                    <input type="text"
+                                                                                        class="form-control-sm"
+                                                                                        placeholder="Type here">
+
+                                                                                </div>
+
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary btn-sm waves-effect waves-light">Apply</button>
+
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+
+
+                                                            </div>
+                                                            <div class="col-md-4 border-right px-0">
+                                                                <h3><i class="bx bxs-layer"></i>Group By</h3>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li><a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Responsible</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Template</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Stage</span></a>
+                                                                </li>
+
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Start Date <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="reg-date w-100">
+                                                                                    <label for="">Date</label>
+                                                                                    <input type="date"
+                                                                                        class="form-control-sm">
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Add Custom Group <i class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Company
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Country
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Created by
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                Created on
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </li>
+                                                            </div>
+                                                            <div class="col-md-4 px-0">
+                                                                <h3><i class="bx bxs-star fav"></i>Favorites</h3>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li><a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>My
+                                                                            Events</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item" href="#"><span><i
+                                                                                class="fas fa-check me-2"
+                                                                                aria-hidden="true"></i>Upcoming
+                                                                            Events</span></a>
+                                                                </li>
+                                                                <div class="dropdown-divider"></div>
+                                                                <li>
+                                                                    <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                        Save current search <i
+                                                                            class="fas fa-angle-right arrow"
+                                                                            aria-hidden="true"></i>
+                                                                    </a>
+                                                                    <ul class="dropdown-menu dropdown-submenu" style="margin-top: 40px;left: auto;width: 100%;">
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input"
+                                                                                        type="checkbox" id="formCheck1">
+                                                                                    <label class="form-check-label"
+                                                                                        for="formCheck1">
+                                                                                        Default filter
+                                                                                    </label>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <div class="form-check">
+                                                                                    <input class="form-check-input"
+                                                                                        type="checkbox" id="formCheck1">
+                                                                                    <label class="form-check-label"
+                                                                                        for="formCheck1">
+                                                                                        Shared
+                                                                                    </label>
+                                                                                </div>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="dropdown-item" href="#">
+                                                                                <button type="button"
+                                                                                    class="btn btn-primary btn-sm waves-effect waves-light">Save</button>
+                                                                            </a>
+                                                                        </li>
+
+
+                                                                    </ul>
+                                                                </li>
+                                                            </div>
+                                                        </div>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="tbl-content">
+                                        <div class="tbl-overflow-hide1">
+                                            <table id="event-table"
+                                                        class="table table-resizable table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th width="36px" style="padding-right: 4px;"><input class="form-check-input" type="checkbox" name="Main_Checkbox" id="selectAll"><span class="resize"></span></th>
+                                                                <th width="68px">S/NO<span class="resize"></span></th>
+                                                                <th>Name<span class="resize"></span></th>    
+                                                                <th>Email<span class="resize"></span></th> 
+                                                                <th>Department<span class="resize"></span></th>       
+                                                                <th>Specialisation<span class="resize"></span></th>                                              
+                                                                <th><span class="resize"></span></th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                                <td>1</td>
+                                                                <td>
+                                                                    <div class="d-flex align-items-center team-name">
+                                                                        <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
+                                                                        Bisharu
+                                                                    </div>
+                                                                </td>
+                                                                <td>bishru@gmail.com<span class="resize"></span></td> 
+                                                                <td>Department<span class="resize"></span></td>       
+                                                                <td>Specialisation<span class="resize"></span></td>   
+                                                                <td class="text-end">
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-member">
+                                                                        <i class="bx bxs-pencil cursor-pntr"></i>
+                                                                    </button>
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
+                                                                        <i class="bx bx-trash cursor-pntr"></i>
+                                                                    </button>
+                                                                    <span class="resize"></span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
+                                                                <td>2</td>
+                                                                <td>
+                                                                    <div class="d-flex align-items-center team-name">
+                                                                        <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
+                                                                        Nasim
+                                                                    </div>
+                                                                </td>
+                                                                <td>nasim@gmail.com<span class="resize"></span></td> 
+                                                                <td>Department<span class="resize"></span></td>       
+                                                                <td>Specialisation<span class="resize"></span></td>   
+                                                                <td class="text-end">
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-member">
+                                                                        <i class="bx bxs-pencil cursor-pntr"></i>
+                                                                    </button>
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
+                                                                        <i class="bx bx-trash cursor-pntr"></i>
+                                                                    </button>
+                                                                    <span class="resize"></span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck3"><span class="resize"></span></td>
+                                                                <td>3</td>
+                                                                <td>
+                                                                    <div class="d-flex align-items-center team-name">
+                                                                        <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
+                                                                        Arshad
+                                                                    </div>
+                                                                </td>
+                                                                <td>arshad@gmail.com<span class="resize"></span></td> 
+                                                                <td>Department<span class="resize"></span></td>       
+                                                                <td>Specialisation<span class="resize"></span></td>   
+                                                                <td class="text-end">
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-member">
+                                                                        <i class="bx bxs-pencil cursor-pntr"></i>
+                                                                    </button>
+                                                                    <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
+                                                                        <i class="bx bx-trash cursor-pntr"></i>
+                                                                    </button>
+                                                                    <span class="resize"></span>
+                                                                </td>
+                                                            </tr>
+                                                        
+                                                        </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="bootom-nav">
+                                            <div class="total-count">
+                                                <h6>Total Count : <span>10</span></h6>
+                                                <ul>
+                                                    <li><a href="#"><i class="bx bx-chevrons-left"></i></a>
+                                                    </li>
+                                                    <li><a href="#"><i class="bx bx-chevron-left"></i></a>
+                                                    </li>                                                      
+                                                    <li class="active"><a href="#"><span>1</span></a></li>
+                                                    <li><a href="#"><span>2</span></a></li>                                                  
+                                                    <li><a href="#"><i class="bx bx-chevron-right"></i></a>
+                                                    </li>
+                                                    <li><a href="#"><i class="bx bx-chevrons-right"></i></a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
-
-
-                                    </div>
+                                    </div> 
                                 </div>
-                                <div class="tbl-content">
-                                    <div class="tbl-overflow-hide1">
-                                        <table id="event-table"
-                                                    class="table table-resizable table-striped">
-                                                    <thead>
-                                                        <tr>
-                                                            <th width="36px" style="padding-right: 4px;"><input class="form-check-input" type="checkbox" name="Main_Checkbox" id="selectAll"><span class="resize"></span></th>
-                                                            <th width="68px">S/NO<span class="resize"></span></th>
-                                                            <th>Name<span class="resize"></span></th>    
-                                                            <th>Email<span class="resize"></span></th> 
-                                                            <th>Department<span class="resize"></span></th>       
-                                                            <th>Specialisation<span class="resize"></span></th>                                              
-                                                            <th><span class="resize"></span></th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
-                                                            <td>1</td>
-                                                            <td>
-                                                                <div class="d-flex align-items-center team-name">
-                                                                    <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
-                                                                    Bisharu
-                                                                </div>
-                                                            </td>
-                                                            <td>bishru@gmail.com<span class="resize"></span></td> 
-                                                            <td>Department<span class="resize"></span></td>       
-                                                            <td>Specialisation<span class="resize"></span></td>   
-                                                            <td class="text-end">
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-member">
-                                                                    <i class="bx bxs-pencil cursor-pntr"></i>
-                                                                </button>
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                                    <i class="bx bx-trash cursor-pntr"></i>
-                                                                </button>
-                                                                <span class="resize"></span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
-                                                            <td>2</td>
-                                                            <td>
-                                                                <div class="d-flex align-items-center team-name">
-                                                                    <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
-                                                                    Nasim
-                                                                </div>
-                                                            </td>
-                                                            <td>nasim@gmail.com<span class="resize"></span></td> 
-                                                            <td>Department<span class="resize"></span></td>       
-                                                            <td>Specialisation<span class="resize"></span></td>   
-                                                            <td class="text-end">
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-member">
-                                                                    <i class="bx bxs-pencil cursor-pntr"></i>
-                                                                </button>
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                                    <i class="bx bx-trash cursor-pntr"></i>
-                                                                </button>
-                                                                <span class="resize"></span>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck3"><span class="resize"></span></td>
-                                                            <td>3</td>
-                                                            <td>
-                                                                <div class="d-flex align-items-center team-name">
-                                                                    <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
-                                                                    Arshad
-                                                                </div>
-                                                            </td>
-                                                            <td>arshad@gmail.com<span class="resize"></span></td> 
-                                                            <td>Department<span class="resize"></span></td>       
-                                                            <td>Specialisation<span class="resize"></span></td>   
-                                                            <td class="text-end">
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#new-member">
-                                                                    <i class="bx bxs-pencil cursor-pntr"></i>
-                                                                </button>
-                                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
-                                                                    <i class="bx bx-trash cursor-pntr"></i>
-                                                                </button>
-                                                                <span class="resize"></span>
-                                                            </td>
-                                                        </tr>
-                                                       
-                                                    </tbody>
-                                        </table>
-                                    </div>
-                                    <div class="bootom-nav">
-                                        <div class="total-count">
-                                            <h6>Total Count : <span>10</span></h6>
-                                            <ul>
-                                                <li><a href="#"><i class="bx bx-chevrons-left"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="bx bx-chevron-left"></i></a>
-                                                </li>                                                      
-                                                <li class="active"><a href="#"><span>1</span></a></li>
-                                                <li><a href="#"><span>2</span></a></li>                                                  
-                                                <li><a href="#"><i class="bx bx-chevron-right"></i></a>
-                                                </li>
-                                                <li><a href="#"><i class="bx bx-chevrons-right"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div> 
+                            
+                            
                             </div>
-                         
-                           
                         </div>
-                      </div>
                      
                     </div>
      
@@ -2597,51 +2601,239 @@
                                 </div>
                                                        
                             </div>
+                            <div class="col-lg-5">
+                                <div class="form-grp">
+                                    <label class="form-label">Social Media</label>
+                                    <div class="social-media-grp">
+                                        <div class="social-crcl">
+                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="social-crcl">
+                                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="social-crcl">
+                                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="social-crcl">
+                                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="input-group social-input" style="display: none;">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text h-100"><i class="fab fa-linkedin-in" aria-hidden="true"></i></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Your page link">
+                                    </div>
+                                   
+                                </div>
+                                                       
+                            </div>
+                           
 
                             <div class="col-md-12 mt-2">
                                 <div class="form-grp">
                                     <label class="form-label">Timeslot<span>*</span></label>
                                  
                                     <div class="time-slot-picker">
-                                        <div class="date-pick-div">
-                                            <div class="date-pick">
-                                                <h5>MON</h5>
-                                                <h3>14</h3>
-                                                <h6>APRIL</h6>
+                                        <div class="date-pick-div owl-carousel owl-theme">
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>MON</h5>
+                                                    <h3>31</h3>
+                                                    <h6>MARCH</h6>
+                                                </div>
                                             </div>
-                                            <div class="date-pick">
-                                                <h5>TUE</h5>
-                                                <h3>15</h3>
-                                                <h6>APRIL</h6>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>TUE</h5>
+                                                    <h3>01</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
                                             </div>
-                                            <div class="date-pick">
-                                                <h5>WED</h5>
-                                                <h3>16</h3>
-                                                <h6>APRIL</h6>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>WED</h5>
+                                                    <h3>02</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
                                             </div>
-                                            <div class="date-pick active">
-                                                <h5>THU</h5>
-                                                <h3>17</h3>
-                                                <h6>APRIL</h6>
+                                            <div class="item">
+                                                <div class="date-pick active">
+                                                    <h5>THU</h5>
+                                                    <h3>03</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
                                             </div>
-                                            <div class="date-pick">
-                                                <h5>FRI</h5>
-                                                <h3>18</h3>
-                                                <h6>APRIL</h6>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>FRI</h5>
+                                                    <h3>04</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
                                             </div>
-                                            <div class="date-pick">
-                                                <h5>SAT</h5>
-                                                <h3>19</h3>
-                                                <h6>APRIL</h6>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SAT</h5>
+                                                    <h3>05</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
                                             </div>
-                                            <div class="date-pick">
-                                                <h5>SUN</h5>
-                                                <h3>20</h3>
-                                                <h6>APRIL</h6>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SUN</h5>
+                                                    <h3>06</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>MON</h5>
+                                                    <h3>07</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>TUE</h5>
+                                                    <h3>08</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>WED</h5>
+                                                    <h3>09</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>THU</h5>
+                                                    <h3>10</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>FRI</h5>
+                                                    <h3>11</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SAT</h5>
+                                                    <h3>12</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SUN</h5>
+                                                    <h3>13</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>MON</h5>
+                                                    <h3>14</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>TUE</h5>
+                                                    <h3>15</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>WED</h5>
+                                                    <h3>16</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>THU</h5>
+                                                    <h3>17</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>FRI</h5>
+                                                    <h3>18</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SAT</h5>
+                                                    <h3>19</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SUN</h5>
+                                                    <h3>20</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>MON</h5>
+                                                    <h3>21</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>TUE</h5>
+                                                    <h3>22</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>WED</h5>
+                                                    <h3>23</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>THU</h5>
+                                                    <h3>24</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>FRI</h5>
+                                                    <h3>25</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SAT</h5>
+                                                    <h3>26</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="date-pick">
+                                                    <h5>SUN</h5>
+                                                    <h3>27</h3>
+                                                    <h6>APRIL</h6>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="date-prev"><a href="javascript: void(0);"><i class="bx bx-chevron-left"></i></a></div>
-                                        <div class="date-next"><a href="javascript: void(0);"><i class="bx bx-chevron-right"></i></a></div>
+                                       
                                     </div>
                                     <div class="pick-dates">
                                         <div class="form-check form-radio-success timeslot-range1">
@@ -2711,6 +2903,7 @@
 
 
     <!-- JAVASCRIPT -->
+
     <script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
     <script src="assets/libs/jquery/jquery.min.js"></script>
     <script src="assets/libs/multiselect/choices.min.js"></script>
@@ -2733,9 +2926,29 @@
     <script src="assets/js/pages/bootstrap-taginput.js"></script>
     <script src="assets/js/pages/mdb.min.js"></script>
     <script src="assets/js/summernote-bs4.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/app.js"></script>
 
-
+    <script>
+        $(document).ready(function () {
+            $(".date-pick-div").owlCarousel({
+                loop: false,
+                margin: 0,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 3
+                    },
+                    600: {
+                        items: 5
+                    },
+                    1000: {
+                        items: 7
+                    }
+                }
+            });
+        });
+    </script>
 
     <script>
         var $radioButtons = $('.radio-check-function input[type="radio"]');
@@ -2982,6 +3195,25 @@
                 });
             });
         </script>
+       <script>
+        $(document).ready(function() {
+            $('.date-pick-div .date-pick').click(function() {
+                $('.date-pick-div .date-pick').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+       </script>
+       <script>
+        $(document).ready(function() {
+            $('.social-crcl').click(function() {
+                $('.social-crcl').removeClass('active');
+                $(this).addClass('active');
+                $('.social-input').show();
+                var iconClass = $(this).find('i').attr('class');
+                $('.social-input .input-group-text i').attr('class', iconClass);
+            });
+        });
+       </script>
 </body>
 
 </html>
